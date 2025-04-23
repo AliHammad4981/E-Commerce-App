@@ -9,11 +9,12 @@ import 'package:e_commerce/Utils/Theme/widgets_theme/text_theme.dart';
 import 'package:e_commerce/Utils/constants/colors.dart';
 import 'package:flutter/material.dart';
 
-class mTheme{
+class mTheme {
   mTheme._();
 
-  static ThemeData LightTheme =ThemeData(
+  static ThemeData LightTheme = ThemeData(
     useMaterial3: true,
+    fontFamily: "Nunito",
     brightness: Brightness.light,
     primaryColor: mColors.primary,
     disabledColor: mColors.grey,
@@ -27,13 +28,14 @@ class mTheme{
     outlinedButtonTheme: mOutlinedButtonTheme.lightOutlinedButtonTheme,
     inputDecorationTheme: mTextFormFieldTheme.lightInputDecorationTheme,
   );
-  static ThemeData DarkTheme =ThemeData(
+  static ThemeData DarkTheme = ThemeData(
     useMaterial3: true,
+    fontFamily: "Nunito",
     brightness: Brightness.dark,
     primaryColor: mColors.primary,
     disabledColor: mColors.grey,
     textTheme: mTextTheme.darkTextTheme,
-    chipTheme:mChipTheme.darkChipTheme,
+    chipTheme: mChipTheme.darkChipTheme,
     scaffoldBackgroundColor: mColors.black,
     appBarTheme: mAppBarTheme.darkAppBarTheme,
     checkboxTheme: mCheckboxTheme.darkCheckboxTheme,
