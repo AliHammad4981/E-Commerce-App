@@ -7,13 +7,14 @@ environment:
   sdk: ^3.7.0
 
 
+  #--------[PACKAGES]------------
 dependencies:
   flutter:
     sdk: flutter
 
-
   cupertino_icons: ^1.0.8
-
+  flutter_native_splash: ^2.4.6
+  #------------------------------
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -28,7 +29,9 @@ flutter:
 
   uses-material-design: true
 
+  #--------[ASSETS]------------
   assets:
+    - assets/logo/
 
   #--------[FONTS]------------
   fonts:
